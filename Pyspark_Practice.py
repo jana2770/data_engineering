@@ -214,4 +214,4 @@ df.write.format('parquet').mode('append').partitionBy('BranchName','DealerName')
 
 # COMMAND ----------
 
-
+dbutils.notebook.exit(df)
